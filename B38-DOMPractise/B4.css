@@ -1,0 +1,39 @@
+body{background-color: aquamarine;}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 300px;
+    background-color: white;
+    border-radius: 16px;
+}
+#main-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#btn{
+    background-color: violet;
+    color: white;
+    width: 130px;
+    height: 35px;
+    border: 0px solid transparent;
+    border-radius: 8px;
+}
+#joke{
+    padding: 40px 100px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    text-align: center;
+}
+#header{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(201, 255, 255);
+}
+#div-1{
+    display: flex;
+    justify-content: center;
+} 
+#ip{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+#icon{
+    display: flex;
+    cursor: pointer;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 35px;
+    background-color: white
+};

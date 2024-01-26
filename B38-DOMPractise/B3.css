@@ -1,0 +1,14 @@
+#div-id{
+    background-image: url(https://i.ytimg.com/vi/QW-YYLxhekQ/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255 ,0.6);
+    animation: fade 3s ease-in-out;
+}
