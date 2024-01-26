@@ -1,16 +1,25 @@
 let icon = document.getElementById('icon');
 let ip= document.getElementById('ip');
-ip.style.display="none";
-function offsearch() {
-    ip.style.display = "none"
-}
+// ip.style.display="none";
+ip.style.width = "0px"
+let count = 1
 icon.onclick= function(){
-    ip.style.display = "block"
-    ip.style.width = "200px"
-    if(ip.value == ""){
-        setTimeout(offsearch,2000)
-    }
-}
-ip.onmouseover = function(){
-    ip.style.width="200px";
+    
+    count++
+    if(count%2==0){
+        // ip.style.display = "block"
+        ip.style.width = "200px"
+        
+        
+    } 
+    else
+    {
+        // ip.style.display = "none"
+        ip.style.width = "0px"
+        
+    } 
+    ip.style.transition = "width 2s"
+    // if(ip.value == "" && count !=2){
+    //     setTimeout(offsearch,2000)
+    // }
 }
