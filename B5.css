@@ -1,0 +1,26 @@
+body{
+    background-color: violet;
+    
+}
+#main-menu{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 260px;
+}
+#item-1{
+    text-align: center;
+}
+#item-2{
+    text-align: center;
+}
+#item-3{
+    text-align: center;
+}
+.letters{
+    font-size: 30px;
+}
